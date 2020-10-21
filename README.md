@@ -1,1 +1,2 @@
-# fall2020-cse111-project
+# CSE 111 Project
+Fall 2020
