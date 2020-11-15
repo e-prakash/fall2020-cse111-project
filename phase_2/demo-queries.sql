@@ -15,7 +15,8 @@ from
 
 select
         datetime(e_time) as date_time,
-        *
+        earthquake.*,
+        city.*
 from
         earthquake,
         city,
@@ -162,7 +163,7 @@ from
 -- inserting new earthquake into database
 
 insert into earthquake
-values('ex20201231', 24581000.646, 100, 35, -1, 5.8, 'mb', 'earthquake', 2049653)
+values('ex20201231', 24581000.646, 100, 35, -1, 5.8, 'mb', 'earthquake', 2049653);
 
 --12.
 -- relative number of earthquakes in a nation per area
@@ -309,7 +310,7 @@ where
 -- earthquakes in a certain city
 
 select
-        *
+        earthquake.*
 from
         earthquake,
         city
