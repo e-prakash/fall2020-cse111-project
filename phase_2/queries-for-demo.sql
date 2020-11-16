@@ -131,7 +131,7 @@ order by
 -- 6
 select
         datetime(e_time) as date_time,
-        cityother.c_name || ', ' ||  s_name as place,
+        cityother.c_name as place,
         e_longitude,
         e_latitude,
         e_mag
