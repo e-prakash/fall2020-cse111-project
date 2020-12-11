@@ -40,7 +40,7 @@ pip install folium
 
 - There is a backup copy of the data if it needs to be reset
 ```
-cp src/Data/backup/data-backup.sqlite src/Data/backup/data.sqlite
+cp src/Data/backup/data-backup.sqlite src/Data/data.sqlite
 ```
 
 - Screenshots in [screenshots/](screenshots/) and Sample Maps in [output/sample/](output/sample/)
