@@ -9,6 +9,8 @@ Project - Phase 3
 
 - Use pip to install the required packages
 ```
+pip install numpy
+pip install pandas
 pip install matplotlib
 pip install folium
 ```
