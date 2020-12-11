@@ -53,4 +53,4 @@ cp src/Data/backup/data-backup.sqlite src/Data/backup/data.sqlite
 
 ![Nevada Nuclear Tests](screenshots/map-nevada-nuclear.jpg)
 
-![Oceania Graph](screenshots/graph.jpg)
+![Oceania Graph](screenshots/graph.png)
