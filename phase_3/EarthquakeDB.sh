@@ -1,0 +1,1 @@
+python3 -m src.EarthquakeDB $1 $2
